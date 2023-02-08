@@ -15,7 +15,7 @@
 3 - Crie um arquivo na raiz do projeto chamado .env e faça as configurações das variáveis de ambiente com base no .env.example do projeto
 ```
 SECRET_KEY=chave secreta definida pelo seu time de desenvolvimento
-DATABASE_URL="postgres:nome da database que criar para gerar o banco de dados"
+DATABASE_NAME="postgres:nome da database que criar para gerar o banco de dados"
 DATABASE_USER="postgres://seu nome de usuário"  
 ```
 4 - Para rodar projeto utilize o comando `yarn run dev` no terminal, caso de tudo certo receberá uma mensagem parecida com essa:
