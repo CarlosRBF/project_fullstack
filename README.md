@@ -50,35 +50,10 @@ Agora, a aplicação estará disponível em http://localhost:3000.
 ### Ferramentas adicionais: 
 Algumas ferramentas úteis foram adicionadas ao projeto utilizando o Yarn, incluindo:
 
-Express: framework para desenvolvimento de aplicações web com Node.js
-TypeORM: TypeORM para trabalhar com banco de dados SQL no Node.js
-PostgreSQL: banco de dados relacional
-Bcrypt: biblioteca para criptografia de senhas
-JWT: biblioteca para autenticação JSON Web Tokens
+###### Express: framework para desenvolvimento de aplicações web com Node.js
+###### TypeORM: TypeORM para trabalhar com banco de dados SQL no Node.js
+###### PostgreSQL: banco de dados relacional
+###### Bcrypt: biblioteca para criptografia de senhas
+###### JWT: biblioteca para autenticação JSON Web Tokens
 
-### Estrutura do projeto:
-A estrutura do projeto é a seguinte:
-.
-+-- dist
-+--node_modules
-+--src
-|   +-- database.js # configurações de conexão com o banco de dados
-+-- @types # utilizado para sobrescrever a leitura global de alguns objetos na aplicação
-+-- controllers # controlar das execições dos services de cada rota
-+-- entities # entidades de cada tabela feita no projeto
-+-- errors # criacao de erro global utilizada em todo projeto
-+-- interfaces # interfaces das rotas, como sera o modelo de cada tabela, onde define os nomes das chaves e tamanho de cada valor
-+-- middleware # middlewares que são criados para alguns controles específicos em algumas rotas
-+-- migrations # migrations do banco de dados
-+-- routes # rotas da aplicação
-+-- services # serviços da aplicação, para cada uma das rotas do CRUD
-|   +-- app.ts # ponto de entrada da aplicação
-|   +-- data-source # responsável por verificar as configurações de ambiente e onde rodará o process.env, se vai ser somente na memória da própria aplicação (recomendado sqlite) somente em ambiente de desenvolvimento, para depois executar o Postgres
-|   +-- server.ts # controlador de execução do localhost
-+-- .env.example # nomes das variaveis de ambiente
-+-- .env # variáveis de ambiente (precisa seguir o .env.example)
-+-- .gitignore # arquivo de texto que diz ao Git quais arquivos ou pastas ele deve ignorar em um projeto.
-+-- jest.config.ts # arquivo de testes em jest do projeto, caso exista, segue o mesmo do package.json
-+-- package.json # arquivo que contém tudo necessário para instalar na aplicação, seprando o que irá rodar globalmente e o que será localmente
-+-- tsconfig.json # configurações necessárias para o Typescript entender e rodar a aplicação
-+-- yarn.lock # bloqueia as dependências instaladas em uma versão especifica
+
