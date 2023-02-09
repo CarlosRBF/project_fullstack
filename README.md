@@ -1,4 +1,4 @@
-# Backend Application 
+# Backend Application NodeJS com Express e Typescript
 
 Este é um projeto de aplicação back-end feito com Node.js Express e utiliza o banco de dados PostgreSQL. O gerenciador de pacotes Yarn foi utilizado para adicionar algumas ferramentas úteis.
 
